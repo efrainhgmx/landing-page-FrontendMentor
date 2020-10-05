@@ -59,3 +59,20 @@ body {
     font-weight: 400;
     text-align: center;
 }
+
+.button {
+    width: 50%;
+    height: 25px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    color:  hsl(228, 45%, 44%);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+ }
+
+ .attribution a { 
+     color: hsl(228, 45%, 44%); 
+}
