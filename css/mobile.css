@@ -69,6 +69,21 @@ body {
     color:  hsl(228, 45%, 44%);
 }
 
+
+.footer {
+    width: 100%;
+    height: 6rem;
+    margin-top: 20px;
+}
+.social--section {
+    display: flex;
+    justify-content: center;
+}
+
+.social--section img {
+    width: 35px;
+    margin: 15px;
+}
 .attribution { 
     font-size: 11px; text-align: center;
  }
