@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    color: white;
+}
+
+.main {
+    background: none;
+    flex-direction: row;
+}
+
+.main--picture img {
+    width: 550px;
+}
+
+.main__content--container {
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.social--section {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
