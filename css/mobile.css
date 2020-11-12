@@ -32,7 +32,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    min-height: 520px;
+    min-height: 480px;
     padding: 20px;
     background-image: url(../images/bg-mobile.svg);
     background-position: center;
