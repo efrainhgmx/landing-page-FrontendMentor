@@ -15,8 +15,8 @@ body {
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
 }
 
 .header {
@@ -73,9 +73,15 @@ body {
     background-color: white;
     border: none;
     border-radius: 25px;
-    color:  hsl(228, 45%, 44%);
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.4);
 }
 
+
+.button a {
+    color:  hsl(228, 45%, 44%);
+    text-decoration: none;
+    padding: 15px;
+}
 
 .footer {
     width: 100%;
@@ -98,4 +104,8 @@ body {
 
  .attribution a { 
      color: hsl(228, 45%, 44%); 
+}
+
+.attribution a:hover {
+    color: white;
 }
